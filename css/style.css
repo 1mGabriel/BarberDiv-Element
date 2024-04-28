@@ -21,8 +21,8 @@
         align-items: end;
         position: fixed;
         z-index: 10;
+        top: 0;
         background-color: rgb(0, 0, 0);
-        border-radius: 10px;
         box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5) inset;
         
     }
@@ -630,7 +630,7 @@
     }
     @media (max-width:425px) {
         .navbar{
-            width: 425px;
+            width: 100%;
             display: flex;
             gap: 1rem;
             justify-content: center;
@@ -653,36 +653,37 @@
         .cares,
         .beard,
         .cuts{
-            width: 400px;
+            width: 300px;
             height: 300px;
+            border-radius: 10px;
         }
         .cares{
-            background-image: url("/img/serv1-400px.png");
+            background-image: url("/img/serv1-300px.jpg");
         }
         .cares:hover{
-            width: 400px;
+            width: 300px;
             height: 300px;
-            background-image: url("/img/serv1-400pxbw.png");
+            background-image: url("/img/serv1-300px-be.jpg");
             background-size: cover;
         }
         
         .beard{
-            background-image: url("/img/serv2400px.jpg");
+            background-image: url("/img/serv2-300px.jpg");
         }
         .beard:hover{
-            width: 400px;
+            width: 300px;
             height: 300px;
-            background-image: url("/img/serv2400pxbw.jpg");
+            background-image: url("/img/serv2-300px-bw.jpg");
             background-size: cover;
         }
 
         .cuts{
-            background-image: url("/img/serv3400px.jpg");
+            background-image: url("/img/serv3-300px.jpg");
         }
         .cuts:hover{
-            width: 400px;
+            width: 300px;
             height: 300px;
-            background-image: url("/img/serv3400pxbw.jpg");
+            background-image: url("/img/serv3-300px-bw.jpg");
             background-size: cover;
         }
         .cares-description h2,
@@ -710,11 +711,42 @@
             position: relative;
             right: 13rem;
         }
+
         .products,
         .profissionais,
         .espaço{
-            width: 400px;
+            width: 300px;
             height: 300px;
+            border-radius: 10px;
+        }
+        .products{
+            background-image: url("/img/dif1-300px.jpg");
+        }
+        .products:hover{
+            width: 300px;
+            height: 300px;
+            background-image: url("/img/sif1-300px-bw.jpg");
+            background-size: cover;
+        }
+        
+        .profissionais{
+            background-image: url("/img/dif2-300px.jpg");
+        }
+        .profissionais:hover{
+            width: 300px;
+            height: 300px;
+            background-image: url("/img/dif2-300px-bw.jpg");
+            background-size: cover;
+        }
+
+        .espaço{
+            background-image: url("/img/dif3-300px.jpg");
+        }
+        .espaço:hover{
+            width: 300px;
+            height: 300px;
+            background-image: url("/img/dif3-300px-bw.jpg");
+            background-size: cover;
         }
         .products-description h2,
         .profissionais-description h2,
@@ -724,50 +756,24 @@
         .products-description p,
         .profissionais-description p,
         .espaço-description p{
-            width: 400px;
-        }
-        .products{
-            background-image: url("/img/dif1400px.jpg");
-        }
-        .products:hover{
-            width: 400px;
-            height: 300px;
-            background-image: url("/img/dif400pxbw.jpg");
-            background-size: cover;
-        }
-        .profissionais{
-            background-image: url("/img/dif2400px.jpg");
-        }
-        .profissionais:hover{
-            width: 400px;
-            height: 300px;
-            background-image: url("/img/dif2400pxbw.jpg");
-            background-size: cover;
-        }
-        .espaço{
-            background-image: url("/img/dif3400px.jpg");
-        }
-        .espaço:hover{
-            width: 400px;
-            height: 300px;
-            background-image: url("/img/dif3400pxbw.jpg");
-            background-size: cover;
+            width: 300px;
         }
         .section4{
             height: 1440px;
         }
         .sobre p{
-            width: 400px;
+            width: 100%;
+            margin: 0;
         }
         .sobre{
-            width: 425px;
+            width: auto;
         }
         .sobre img{
-            width: 400px;
-            margin: 0 10px 0 10px;
+            width: 100%;
+            margin: 0;
         }
         .sobre-img img{
-            width: 400px;
+            width: 100%;
             margin: 0;
             display: flex;
             flex-direction: column;
@@ -782,13 +788,14 @@
             padding:0;
         }
     }
-    @media (max-width: 375px) {
+    @media (max-width: 390px) {
         .navbar{
-            width: 375px;
+            width: 390px;
             gap: 10px;
         }
         .navbar img{
             height: 100px;
+            
         }
         .services-container{
             gap: 1rem;
