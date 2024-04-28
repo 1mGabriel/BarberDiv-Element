@@ -782,6 +782,160 @@
             padding:0;
         }
     }
+    @media (max-width: 375px) {
+        .navbar{
+            width: 375px;
+            gap: 10px;
+        }
+        .navbar img{
+            height: 100px;
+        }
+        .services-container{
+            gap: 1rem;
+        }
+        .agenda{
+            font-size: 40px;
+        }
+        .agenda-section{
+            width: 350px;
+        }
+
+        .cares,
+        .beard,
+        .cuts{
+            width: 300px;
+            height: 300px;
+            border-radius: 10px;
+        }
+        .cares{
+            background-image: url("/img/serv1-300px.jpg");
+        }
+        .cares:hover{
+            width: 300px;
+            height: 300px;
+            background-image: url("/img/serv1-300px-be.jpg");
+            background-size: cover;
+        }
+        
+        .beard{
+            background-image: url("/img/serv2-300px.jpg");
+        }
+        .beard:hover{
+            width: 300px;
+            height: 300px;
+            background-image: url("/img/serv2-300px-bw.jpg");
+            background-size: cover;
+        }
+
+        .cuts{
+            background-image: url("/img/serv3-300px.jpg");
+        }
+        .cuts:hover{
+            width: 300px;
+            height: 300px;
+            background-image: url("/img/serv3-300px-bw.jpg");
+            background-size: cover;
+        }
+        .cares-description h2,
+        .beard-description h2,
+        .cuts-description h2{
+            display: none;
+        }
+        .cares-description p,
+        .beard-description p,
+        .cuts-description p{
+            width: 300px;
+        }
+        .difs-container{
+            gap: 1rem;
+            
+        }
+        .section4{
+            height: 1500px;
+        }
+
+        .products,
+        .profissionais,
+        .espaço{
+            width: 300px;
+            height: 300px;
+            border-radius: 10px;
+        }
+        .products{
+            background-image: url("/img/dif1-300px.jpg");
+        }
+        .products:hover{
+            width: 300px;
+            height: 300px;
+            background-image: url("/img/sif1-300px-bw.jpg");
+            background-size: cover;
+        }
+        
+        .profissionais{
+            background-image: url("/img/dif2-300px.jpg");
+        }
+        .profissionais:hover{
+            width: 300px;
+            height: 300px;
+            background-image: url("/img/dif2-300px-bw.jpg");
+            background-size: cover;
+        }
+
+        .espaço{
+            background-image: url("/img/dif3-300px.jpg");
+        }
+        .espaço:hover{
+            width: 300px;
+            height: 300px;
+            background-image: url("/img/dif3-300px-bw.jpg");
+            background-size: cover;
+        }
+        .products-description h2,
+        .profissionais-description h2,
+        .espaço-description h2{
+            display: none;
+        }
+        .products-description p,
+        .profissionais-description p,
+        .espaço-description p{
+            width: 300px;
+        }
+        .sobre-img img{
+            width: 300px;
+        }
+        .sobre{
+            width: 300px;
+        }
+        .sobre p{
+            margin: 0;
+        }
+        .sobre p,
+        .sobre img{
+            width: 300px;
+            text-align: center;
+        }
+        #arrow{
+            position: relative;
+            top: 4rem;
+        }
+        .main-container{
+         padding: 0;
+        }
+        .section5 h1{
+            position: relative;
+            top: 10rem;
+            
+        }
+    
+    }
+    @media (max-width:320px) {
+        .navbar img{
+            height: 50px;
+        }
+        .navbar{
+            width: 320px;
+        }
+    }
 
     /* hide */
     .hide{
